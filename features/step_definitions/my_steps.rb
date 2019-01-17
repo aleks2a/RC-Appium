@@ -1,5 +1,5 @@
 Given(/^I land on login screen$/) do
-  expect(signup_button.text).to eql("Don't have an account? Sign Up")
+  expect(sign_in_screen.signup_button.text).to eql("Don't have an account? Sign Up")
 end
 
 Then(/^I press SignIn button$/) do
