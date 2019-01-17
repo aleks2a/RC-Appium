@@ -17,7 +17,7 @@ class SigninScreen
   end
 
   def submit_credentials
-    find_element(id: "btnSignIn")
+    find_element(id: "btnSignIn").click
   end
 
 
